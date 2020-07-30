@@ -1,0 +1,39 @@
+/**
+ * markdown 自定义样式
+ * @Author:itmacy
+ * @Date:2020/7/22
+ */
+/*<--引用样式--!>*/
+blockquote {
+  border-left:#eee solid 5px ;
+  padding-left:20px ;
+}
+/*<--列表样式--!>*/
+ul li {
+  line-height: 20px ;
+}
+
+/*<--代码样式--!>*/
+pre{
+  background: #F6F6F6 ;
+  overflow: auto;
+}
+code {
+  color:#D34B62 ;
+  border: 1px solid #eee;
+}
+// 表格
+table {
+  border-collapse: collapse;
+}
+table, td, th
+{
+  border:1px solid #666;
+  padding: 5px;
+}
+th
+{
+  background-color:#999;
+  color:#fff;
+  padding: 5px;
+}
